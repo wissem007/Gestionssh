@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_REGISTRY = 'my-docker-registry.com'
+        DOCKER_REGISTRY = 'localhost:5000'
         DOCKER_REGISTRY_CREDENTIALS = 'my-registry-credentials'
         DOCKER_IMAGE_NAME = 'my-image'
         DOCKER_IMAGE_TAG = 'latest'
